@@ -64,5 +64,12 @@ public class HomeRunDerby {
       return pitch + "\n" + swing + "\n" + "It's a foul ball\n";
     }
   }
+  /** void setPitchNumer()
+  * sets the pitch number the game is currently on
+  * @param new pitch number
+  */
+  public void setPitchNumber(int _pitchNumber){
+    pitchNumber = _pitchNumber
+  }
   
 }
