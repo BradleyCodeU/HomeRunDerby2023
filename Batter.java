@@ -8,6 +8,7 @@
 public class Batter {
   private String name;
   private int pitchCounter;
+  private int pitchNumber;
 
   /**
   *  Constructs a new Batter object that represents a baseball 
@@ -20,6 +21,17 @@ public class Batter {
   public Batter(String name){
     this.name = name;
     this.pitchCounter = 0;
+  }
+  
+    /**
+  *  Constructs a new object that represents the number of pitches 
+  *  thrown. The pitch number must be supplied as an argument.
+  *  The number of pitches isn't initially set to anything.
+  *
+  *  @param int _pitchNumber   Integer number of pitches thrown.
+  */
+  public void setPitchNumber(int _pitchNumber){
+    this.pitchNumber = _pitchNumber;
   }
 
   /**
