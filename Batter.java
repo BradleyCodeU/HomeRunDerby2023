@@ -34,7 +34,7 @@ public class Batter {
   */
   public String getSwing(){
     String result = "Strike! Swing and a miss by " + this.name;
-    if(???){ // <---------------------------------------------- FIX ME call the isVowel method, send in name and pitchNumber as args
+    if(isVowel(this.name, this.pitchCounter){ // <---------------------------------------------- FIX ME call the isVowel method, send in name and pitchNumber as args
       result = "BOOM! " + this.name + " hit a home run!";
     }
     this.pitchCounter++;
