@@ -70,6 +70,8 @@ public class HomeRunDerby {
   */
   public void setPitchNumber(int _pitchNumber){
     pitchNumber = _pitchNumber;
+    this.pitcher.setPitchNumber(_pitchNumber);
+    this.batter.setPitchNumber(_pitchNumber);
   }
   
 }
