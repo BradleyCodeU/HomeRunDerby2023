@@ -69,7 +69,7 @@ public class HomeRunDerby {
   * @param new pitch number
   */
   public void setPitchNumber(int _pitchNumber){
-    pitchNumber = _pitchNumber
+    pitchNumber = _pitchNumber;
   }
   
 }
