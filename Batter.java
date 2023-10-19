@@ -40,7 +40,17 @@ public class Batter {
     this.pitchCounter++;
     return result;
   }
-
+/**
+*the isGoodSwing methid uses the isVowel function with the batter
+*name and pitchCounter and returns either true or false depending
+*on the name and number.
+*
+*@return boolean   a true or false value that that decides the swing 
+*
+*/
+  public boolean isGoodSwing(){
+    return isVowel(this.name,this.pitchCounter);
+  }
   /**
   * The static isVowel method takes a String word and an int num.
   * If the letter at index location num is a vowel, returns true
