@@ -62,4 +62,12 @@ public class Batter {
   public String getName(){
     return name;
   }
+  /**
+  * The nextPitch method incraeses the pitch counter
+  
+  */
+  public void nextPitch(){
+    this.pitchCounter++;
+
+  }
 }
