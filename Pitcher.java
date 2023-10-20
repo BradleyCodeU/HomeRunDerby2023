@@ -43,10 +43,10 @@ public class Pitcher {
   */
   public String getPitch(){
     String result = "Oof! " + this.name + " throws a bad pitch";
-    if(???){ // <---------------------------------------------- FIX ME call the isVowel method, send in name and pitchNumber as args
+    if(isVowel(this.name, this.pitchCounter)){ 
       result = this.name + " throws a GREAT pitch!";
     }
-    this.pitchCounter++;
+    //this.pitchCounter++;
     return result;
   }
 
