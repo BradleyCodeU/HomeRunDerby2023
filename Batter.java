@@ -21,6 +21,15 @@ public class Batter {
     this.name = name;
     this.pitchCounter = 0;
   }
+  
+    /**
+  *  The pitch number must be supplied as an argument.
+  *
+  *  @param int _pitchNumber   Integer number of pitches thrown.
+  */
+  public void setPitchNumber(int _pitchNumber){
+    this.pitchCounter = _pitchNumber;
+  }
 
   /**
   * The getSwing method looks at the player's name and the 
