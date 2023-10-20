@@ -46,7 +46,7 @@ public class Pitcher {
     if(isVowel(this.name, this.pitchCounter)){ 
       result = this.name + " throws a GREAT pitch!";
     }
-    this.pitchCounter++;
+    //this.pitchCounter++;
     return result;
   }
 
